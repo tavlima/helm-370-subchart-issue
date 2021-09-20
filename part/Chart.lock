@@ -1,0 +1,9 @@
+dependencies:
+- name: subpart
+  repository: file://../subpart
+  version: 0.1.0
+- name: subpart
+  repository: file://../subpart
+  version: 0.1.0
+digest: sha256:7a531f75ca4bf24ac2123ecf4dadd0c4ad0541987ad2d78d4bfe659bfa324062
+generated: "2021-09-20T18:16:39.068432-03:00"

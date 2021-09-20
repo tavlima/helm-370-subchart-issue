@@ -1,0 +1,5 @@
+composition:
+  title: This is from the composition
+  fullname:
+    part1: {{ include "common.fullname" .Subcharts.part1 }}
+    part2: {{ include "common.fullname" .Subcharts.part2 }}

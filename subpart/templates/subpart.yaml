@@ -1,0 +1,3 @@
+subpart:
+  title: This is from subpart
+  fullname: {{ include "common.fullname" . }}

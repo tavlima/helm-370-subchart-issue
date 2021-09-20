@@ -1,0 +1,5 @@
+part:
+  title: This is from part
+  fullname:
+    subpart1: {{ include "common.fullname" .Subcharts.subpart1 }}
+    subpart2: {{ include "common.fullname" .Subcharts.subpart2 }}

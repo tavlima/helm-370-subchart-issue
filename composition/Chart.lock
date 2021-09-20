@@ -1,0 +1,9 @@
+dependencies:
+- name: part
+  repository: file://../part
+  version: 0.1.0
+- name: part
+  repository: file://../part
+  version: 0.1.0
+digest: sha256:5a6eba06ecd52104379ad784e16d6f9bd0f039d049faa0b646413a649e05c911
+generated: "2021-09-20T18:21:35.601282-03:00"

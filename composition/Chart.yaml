@@ -1,0 +1,15 @@
+apiVersion: v2
+name: composition
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+appVersion: "1.16.0"
+dependencies:
+  - name: part
+    repository: file://../part
+    version: "^0.1.0"
+    alias: part1
+  - name: part
+    repository: file://../part
+    version: "^0.1.0"
+    alias: part2
